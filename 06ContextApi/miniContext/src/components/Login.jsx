@@ -10,7 +10,7 @@ function Login() {
 
     // Access global context
     // We only need setUser to update global state
-    const { setUser } = useContext(UserContext)
+    const { setUser } = useContext(UserContext) //Accepts a context object (the value returned from React.createContext) and returns the current context value, as given by the nearest context provider for the given context.
 
     // Handle form submission
     const handleSubmit = (e) => {
