@@ -1,0 +1,8 @@
+@import "tailwindcss";
+body{
+    background: #808080;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
